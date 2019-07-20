@@ -1,0 +1,51 @@
+.Footer{
+  width: 100%;
+  border-top: 1px solid rgb(48, 14, 80);
+  align-items: center;
+  padding: 30px 120px;
+}
+.logo {
+  color:rgb(248, 224, 2);
+  width: 200px;
+  margin-left: -40px;
+}
+
+@media screen and (max-width:768px){
+  .Footer{
+      width: 100%;
+      display: block;
+  }
+  .logo{
+    width: 150px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+ }
+ 
+ @media screen and (max-width:452px){
+  .Footer{
+    width: 100%;
+    display: block;
+    padding: 30px 80px;
+  }
+  .logo{
+    width: 150px;
+    margin-left: 70px;
+  }
+}
+ 
+ @media screen and (max-width:320px){
+  .Footer{
+    width: 100%;
+    display: block;
+    padding: 30px 20px;
+  }
+  .logo{
+    width: 150px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  } 
+} 
+ 

@@ -1,0 +1,161 @@
+.GameCard{
+    width: 30%;
+    height: auto;
+    padding: 0;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 13px 0px rgb(128, 128, 128);
+    margin-bottom: 50px;
+}
+.GameCard:hover{
+    box-shadow: 0px 0px 13px 0px  rgb(48, 14, 80);
+}
+.GameCard a{
+    text-decoration: none;
+    color: black;
+}
+.GameCard a:hover{
+    text-decoration: none;
+    color: black;
+}
+.gameLogo{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+.GameText{
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.GameName{
+    width: 87%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.gameLogo-small-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(22, 21, 21);
+    display: inline-block;
+}
+.gameLogo-small-box:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 13px 0px  rgb(48, 14, 80);
+}
+.gameLogo-small{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+.GameCard h5{
+    font-weight: bold;
+}
+.GameCard p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.GameCard i{
+    font-size: 18px;
+}
+.GameCard span{
+    color: rgb(53, 166, 194);
+    font-weight: bold;
+}
+.time{
+    margin-left: 24px;
+    color: gray;
+    margin-top: 0;
+}
+
+@media screen and (max-width:1024px){
+    .GameCard{
+        margin-left: 20px;
+    }
+    .GameName{
+        width: 87%;
+    }
+    .GameName h5{
+        font-size: 12px;
+    }
+    .gameLogo-small-box{
+        width: 30px;
+        height: 30px;
+    }
+    .gameLogo-small{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:768px){
+    .GameCard{
+        width: 60%;
+        margin-left: 150px;
+        padding: 10px;
+    }
+    .gameLogo{
+    display: none;
+    }
+    .GameName{
+        width: 80%;
+    }
+    .gameLogo-small-box{
+        width: 70px;
+        height: 70px;
+    }
+    .gameLogo-small{
+        width: 50px;
+        height: 50px;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:452px){
+    .GameCard{
+        width: 80%;
+        margin-left: 50px;
+        padding: 10px 5px;
+    }
+    .gameLogo{
+    display: none;
+    }
+    .GameName{
+        width: 80%;
+    }
+    .gameLogo-small-box{
+        width: 50px;
+        height: 50px;
+    }
+    .gameLogo-small{
+        width: 35px;
+        height: 35px;
+        margin-left: 7px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .GameCard{
+        width: 75%;
+    }
+    .gameLogo{
+    display: none;
+    }
+    .GameName{
+        width: 70%;
+    }
+    .gameLogo-small-box{
+        width: 50px;
+        height: 50px;
+    }
+    .gameLogo-small{
+        width: 35px;
+        height: 35px;
+    }
+}

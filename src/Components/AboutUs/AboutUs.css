@@ -1,0 +1,136 @@
+.AboutUs{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+    background: repeating-linear-gradient(
+      350deg,
+      #39145c,
+      #39145c 20%,
+      white 20%,
+      white 81%
+    );
+}
+.AboutBrainster{
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.AboutBrainster h1{
+    margin: 50px;
+    color: rgb(255, 230, 2);
+    text-align: center;
+}
+.AboutBrainster p{
+    margin: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.BrainsterNo img{
+    width: 400px;
+    padding: 20px;
+}
+.AboutUs .Numb{
+    list-style: none;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(70, 69, 69);
+    margin-left: 28px;
+    text-align: center;
+}
+.bigger{
+    font-size: 60px;
+    margin: 10px 20px;
+}
+.smaller{
+    font-size: 30px;
+}
+@media screen and (max-width:1024px){
+    .AboutBrainster{
+        margin-left: 0;;
+    }
+    .AboutUs .Numb ul{
+        width: auto;
+        display: inline-block;
+    }
+    .bigger{
+        font-size: 40px;
+        margin: 10px 20px;
+    }
+    .smaller{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .AboutBrainster{
+        padding: 0;
+        margin: 0;
+        margin-top: 300px;
+    }
+    .BrainsterNo img{
+        width: 300px;
+        padding: 20px;
+    }
+    .BrainsterNo{
+        margin-left: 25px;
+    }
+    .AboutUs .Numb{
+        padding-left: 0;
+        margin-bottom: 150px;
+    }
+    .AboutUs .Numb ul{
+        width: auto;
+        display: inline-block;
+    }
+    .bigger{
+    font-size: 30px;
+    margin: 10px 20px;
+    }
+    .smaller{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:452px){
+    .AboutBrainster{
+        padding: 0;
+        margin: 0;
+        margin-top: 250px;
+    }
+    .BrainsterNo img{
+        width: 200px;
+        margin-left: -50px;
+    }
+    .BrainsterNo{
+        margin-left: 0px;
+        margin-bottom: 150px;
+    }
+    .AboutBrainster h1{
+        margin: 30px;
+        color: rgb(255, 230, 2);
+        text-align: center;
+        font-size: 20px;
+    }
+    .AboutBrainster p{
+        margin: 30px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .AboutUs .Numb{
+        padding-left: 0;
+        padding-right:50px; 
+        margin-bottom: 0px;
+        display: block;
+    }
+    .bigger{
+    font-size: 30px;
+    margin: 10px 20px;
+    }
+    .smaller{
+        font-size: 20px;
+    }
+}
+

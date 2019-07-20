@@ -1,0 +1,36 @@
+.LogoNav{
+  margin-left: 70%;    
+  margin-right: 20%;
+}
+.LogoNav img{
+    width: 200px;
+}
+@media screen and (max-width:1024px){
+    .LogoNav{
+        margin-left: 60%;    
+      }
+}
+
+@media screen and (max-width:768px){
+  .LogoNav{
+    margin-left: 60%;    
+  }
+}
+ 
+@media screen and (max-width:452px){
+  .LogoNav img{
+    width: 130px;
+  }
+  .LogoNav{
+    margin-left: 20%;    
+  }
+}
+ 
+@media screen and (max-width:320px){
+  .LogoNav img{
+    width: 100px;
+  }
+  .LogoNav{
+    margin-left: 10%;    
+  }  
+}

@@ -1,0 +1,21 @@
+.BlankFooter{
+    height: 250px;
+}
+@media screen and (max-width:768px){
+    .BlankFooter{
+        height: 100px;
+    }  
+}
+ 
+@media screen and (max-width:452px){
+    .BlankFooter{
+        height: 0px;
+    }
+}
+   
+@media screen and (max-width:320px){
+    .BlankFooter{
+        height: 0px;
+    }
+}
+   

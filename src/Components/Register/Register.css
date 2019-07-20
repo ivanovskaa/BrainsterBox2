@@ -1,0 +1,62 @@
+.Register{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+    
+  background: repeating-linear-gradient(
+    350deg,
+    #39145c,
+    #39145c 20%,
+    white 20%,
+    white 81%
+  );
+}
+.RegisterBrainster{
+  margin-top: 200px;
+}
+.RegisterForm{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+.RegisterForm h3{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Register .Label{
+  color: rgb(66, 66, 66); 
+  margin: 15px;
+}
+.submitBtn{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(80, 80, 80);
+  padding: 10px 7px;
+  margin: 30px;
+}
+.submitBtn:hover{
+  color: white;
+  background-color: rgb(53, 53, 53);
+  font-weight: bold;
+  text-decoration: none;
+}
+ 
+ @media screen and (max-width:452px){
+  .submitBtn{
+   margin-bottom: 150px;
+  }
+ }
+ 
+ @media screen and (max-width:320px){
+  .RegisterForm{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 10%;
+  }
+  .submitBtn{
+   margin-bottom: 150px;
+  }
+ }
+ 

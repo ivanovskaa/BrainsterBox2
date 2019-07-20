@@ -1,0 +1,77 @@
+.BurgerManu{
+    height: 100%;
+    background: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 25%;
+    z-index: 200;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.BurgerManu ul{
+    margin-top: 70px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.BurgerManu li{
+   padding: 10px 30px;
+   border-bottom: 1px solid rgb(218, 215, 215);
+}
+.BurgerManu li:hover{
+   color: rgba(248, 182, 2, 0.932);
+}
+.BurgerManu a{
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+}
+.BurgerManu a:hover{
+    color: rgba(248, 182, 2, 0.932);
+}
+.manu-close-btn{
+    margin: 0 30px;
+    padding: 2px;
+    display: flex;
+}
+.closeBtn{
+    border: none;
+    background-color: white;
+    padding: 0px 10px;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left: 25%;
+}
+.BurgerManu span{
+    font-size: 12px;
+    padding-top: 8px;
+}
+.BurgerManu .manu-close-btn img{
+    width: 115px;
+    height: 40px;
+}
+@media screen and (max-width:1024px){
+    .BurgerManu{
+        width: 40%;
+    }
+}
+@media screen and (max-width:768px){
+    .BurgerManu{
+        width: 40%;
+    }
+}
+   
+@media screen and (max-width:452px){
+    .BurgerManu{
+        width: 75%;
+    }
+}
+   
+@media screen and (max-width:320px){
+    .BurgerManu{
+        width: 95%;
+    }
+}
+   

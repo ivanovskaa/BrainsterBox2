@@ -1,0 +1,68 @@
+.navbar-items{
+    text-decoration: none;
+}
+.navbar-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+}
+.navbar-items ul li{
+    margin-right: 20px;
+}
+.navbar-items ul li:hover{
+    color: rgb(248, 224, 2);
+    text-decoration: none;
+}
+.NavbarBtns .warning{
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    padding: 10px 7px;
+}
+.NavbarBtns .warning a{
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-decoration: none;
+}
+.NavbarBtns .dark{
+    color: rgba(248, 182, 2, 0.932);
+    font-weight: bold;
+    background-color: rgb(56, 56, 56);
+    padding: 10px 7px;
+}
+.NavbarBtns .dark a{
+    color: rgb(248, 224, 2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px){
+    .navbar-items ul li{
+        margin-right: 10px;
+    }
+    .NavbarBtns .warning{
+        padding: 5px 2px;
+    }
+    .NavbarBtns .dark{  
+        padding: 5px 2px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar-items ul{
+        float: left;
+        margin-left: 30%;
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 425px){
+    .navbar-items ul{
+        margin-left: 55px;
+    }
+}
+@media screen and (max-width: 320px){
+    .navbar-items ul{
+        margin-left: 0px;
+    }
+}

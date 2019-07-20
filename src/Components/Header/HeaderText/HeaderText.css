@@ -1,0 +1,57 @@
+.HeaderText{
+    width:100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.HeaderText h1{
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.HeaderText h5{
+    margin: auto;
+    width: 45%;
+}
+.HeaderText Button{
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(248, 224, 2);
+}
+.HeaderText Button a{
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-decoration: none;
+}
+.HeaderText Button a:hover{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+@media screen and (max-width:768px){
+  .HeaderText{
+      margin-left: 10px;
+  }
+  .HeaderText h1{
+    width: 70%;
+    margin-left: 120px;
+}
+.HeaderText h5{
+    margin: auto;
+    width: 80%;
+    font-size: 14px;
+    }     
+}
+   
+@media screen and (max-width:452px){
+    .HeaderText{
+        margin-left: 5px;
+    }
+    .HeaderText h1{
+        width: 70%;
+        margin-left: 60px;
+        font-size: 25px;
+    }
+    .HeaderText h5{
+        font-size: 12px;
+        }    
+}

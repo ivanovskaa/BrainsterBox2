@@ -1,0 +1,135 @@
+.GameDescriptionMain{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.GameDescription {
+    padding: 0;
+    width: 100%;
+    height: 550px;
+    background-image: url("https://images.pexels.com/photos/1811991/pexels-photo-1811991.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940");
+    position: relative;
+    background-position: 50%;
+}
+.HeadCont{
+    padding: 0;
+}
+.GameDescription:before {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    border-bottom: 200px solid white;
+    border-left: 1350px solid transparent;
+    width: 0;
+}
+.Grey{
+    margin-top: 450px;
+}
+.BreafInfo{
+    height: 100px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+.GameDescription .Grey ul{
+    list-style: none;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    padding: 0;
+}
+.icons{
+    font-weight: bold;
+}
+.GameDescription .Grey .info i{
+    font-size: 23px;
+}
+.GameDescription .urlLi{
+    color: gray;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.DetailInfo{
+    height: auto;
+    margin-top: 30px;;
+}
+.GameDetail{
+    margin-top: 10px;
+}
+.BottonBg{
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background:rgb(57, 20, 92);
+    position: relative;
+}
+.BottonBg:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 300px solid white;
+    border-right: 1600px solid transparent;
+}
+@media screen and (max-width:2560px){
+    .NavBtns{
+      display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .NavBtns{
+        display: block;
+      }
+    .GameDescription{
+        height: 450px;
+    }
+    .GameDescription .Grey ul{
+        text-align: left;
+        padding-left: 50px;
+    }
+    .Grey{
+        margin-top: 350px;
+        padding-left: 50px;
+    }
+    .BreafInfo{
+        width: 80%;
+        height: 250px;
+    }
+}
+   
+@media screen and (max-width:452px){
+    .GameDescription{
+        height: 450px;
+    }
+    .GameDescription .Grey ul{
+        text-align: left;
+        padding-left: 50px;
+    }
+    .Grey{
+        margin-top: 350px;
+        padding-left: 50px;
+    }
+    .BreafInfo{
+        width: 100%;
+        height: 250px;
+    }
+}
+   
+@media screen and (max-width:320px){
+    .GameDescription{
+        height: 450px;
+    }
+    .GameDescription .Grey ul{
+        text-align: left;
+        padding-left: 30px;
+    }
+    .Grey{
+        margin-top: 350px;
+        padding-left: 30px;
+    }
+    .BreafInfo{
+        width: 100%;
+        height: auto;
+    }
+}
+   

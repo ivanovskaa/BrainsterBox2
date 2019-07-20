@@ -1,0 +1,28 @@
+.SocialMedia{
+    float: right;
+    margin-top: 20px;
+}
+.SocialMedia .icon{
+    color: rgba(248, 182, 2, 0.932);
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+@media screen and (max-width:768px){
+    .SocialMedia{
+        float: none;
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:452px){
+    .SocialMedia{
+        float: none;
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:320px){
+    .SocialMedia{
+        float: none;
+        margin-left: 70px;
+    }
+}

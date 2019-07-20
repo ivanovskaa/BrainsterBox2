@@ -1,0 +1,141 @@
+.ContactUs{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: repeating-linear-gradient(
+        350deg,
+        #39145c,
+        #39145c 25%,
+        white 25%,
+        white 78%
+      );
+}
+.ContactBrainster{
+    height: auto;
+    margin: 100px auto;
+    padding-top: 200px;;
+}
+.Left{
+    border-right:1px solid gray;
+}
+.ContactBrainster Form{
+    width: 90%;
+}
+label.form-label{
+    padding-top: 15px; 
+    color: rgb(80, 80, 80);
+}
+.SendBtn{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(100, 100, 100);
+    padding: 10px 7px;
+    margin: 30px;
+}
+.SendBtn:hover{
+color: white;
+background-color: rgb(80, 80, 80);
+font-weight: bold;
+text-decoration: none;
+}
+.CompanyInfos{
+    padding-left: 50px;
+}
+.CompanyInfos img{
+    width: 100%;
+    height: 100%;
+}
+.CompanyInfos ul{
+    list-style: none;
+    color: rgb(80, 80, 80);
+    margin-top: 50px;
+    margin-left: -40px;
+}
+.CompanyInfos ul li i{
+    font-size: 22px;
+    margin: 15px auto;
+}
+@media screen and (max-width:768px){
+    .ContactBrainster{      
+        padding-top: 300px;
+        margin-left: 50px;
+    }
+    .ContactBrainster Form{
+        width: 80%;
+    }
+    .SendBtn{
+        margin-left: 75px;
+    }
+    .CompanyInfos img{
+        width: 600px;
+        height: 400px;
+    }
+    .CompanyInfos ul{
+        list-style: none;
+        color: rgb(80, 80, 80);
+        margin-top: 0px;
+        margin-left: -40px;
+        margin-bottom: 150px;
+    }
+    .CompanyInfos ul li i{
+        font-size: 22px;
+        margin: 15px auto;
+    }
+}
+   
+@media screen and (max-width:452px){
+    .ContactBrainster{      
+        padding-top: 300px;
+        margin-left: 50px;
+    }
+    .ContactBrainster Form{
+        width: 80%;
+    }
+    .SendBtn{
+        margin-left: 75px;
+    }
+    .CompanyInfos img{
+        display: none;
+    }
+    .CompanyInfos ul{
+        list-style: none;
+        color: rgb(80, 80, 80);
+        margin-top: 0px;
+        margin-left: -40px;
+        margin-bottom: 150px;
+    }
+    .CompanyInfos ul li i{
+        font-size: 22px;
+        margin: 15px auto;
+    }
+}
+   
+@media screen and (max-width:320px){
+    .ContactBrainster{      
+        padding-top: 300px;
+        margin-left: 50px;
+    }
+    .ContactBrainster Form{
+        width: 80%;
+    }
+    .SendBtn{
+        margin-left: 75px;
+    }
+    .CompanyInfos img{
+        display: none;
+    }
+    .CompanyInfos ul{
+        list-style: none;
+        color: rgb(80, 80, 80);
+        margin-top: 0px;
+        margin-left: -40px;
+        margin-bottom: 150px;
+    }
+    .CompanyInfos ul li i{
+        font-size: 22px;
+        margin: 15px auto;
+    }
+}
+   
